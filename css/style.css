@@ -75,9 +75,13 @@ p {
     text-align: center;
 }
 
+div {
+    padding: 5px;
+}
+
 .column {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 100%;
+    width: calc(100% - 10px);
 }
