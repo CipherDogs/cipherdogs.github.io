@@ -30,7 +30,6 @@ html {
 }
 
 body {
-    margin: 0;
     background-color: black;
     color: white;
 }
@@ -75,13 +74,17 @@ p {
     text-align: center;
 }
 
-div {
-    padding: 5px;
-}
-
-.column {
+.persons {
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    width: calc(100% - 10px);
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.person img {
+    width: 150px;
+    height: 150px;
+    margin: 0 25px;
 }
