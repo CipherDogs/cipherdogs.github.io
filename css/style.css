@@ -1,3 +1,31 @@
+@media screen and (min-width: 781px) {
+    .header img {
+        width: 400px;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+    
+    h3, p, footer {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .header img {
+        width: 200px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+    
+    h3, p, footer {
+        font-size: 1em;
+    }
+}
+
 @font-face {
     font-family: Sheeping Dogs;
     src: url(../fonts/Sheeping_Dogs.ttf)
@@ -58,10 +86,6 @@ header {
     width: inherit;
 }
 
-.header img {
-    max-width: 400px;
-}
-
 main {
     display: flex;
     flex-direction: column;
@@ -76,16 +100,17 @@ h1, h3 {
     width: 90%;
 }
 
-h1 {
-    font-size: 3em;
-}
-
-h3 {
-    font-size: 1.5em;
-}
-
 p {
     text-align: center;
+}
+
+.block {
+    max-width: 800px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .persons {
