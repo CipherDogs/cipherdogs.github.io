@@ -10,6 +10,11 @@
     h3, p, footer {
         font-size: 1.5em;
     }
+
+    .person img {
+        width: 150px;
+        height: 150px;
+    }
 }
 
 @media screen and (max-width: 780px) {
@@ -23,6 +28,11 @@
     
     h3, p, footer {
         font-size: 1em;
+    }
+
+    .person img {
+        width: 100px;
+        height: 100px;
     }
 }
 
@@ -106,7 +116,6 @@ p {
 
 .block {
     max-width: 800px;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -122,9 +131,7 @@ p {
     flex-wrap: wrap;
 }
 
-.person img {
-    width: 150px;
-    height: 150px;
+.person {
     margin: 0 25px;
 }
 
