@@ -10,55 +10,12 @@
     <title>Cipher Dogs</title>
 </head>
 <body>
-    <header>
-        <div class="header">
-            <img src="img/logo-black.png">
-            <h1>Cipher Dogs</h1>
-            <h3>Cyber-crypto team<br>Decentralization and Distribution</h3>
-        </div>
-    </header>
-    <main>
-        <div class="block">
-            <p>Our team is interested in electronic art/hack/social activity and blockchain/decentralized technology and other technologies. We are aimed at promoting blockchain technology among people. Our team creates various libraries, websites, artwork and other projects in the field of blockchain technologies. We also help blockchain projects. We believe that blockchain technology is the future.</p>
-            <p>
-                <a href="https://github.com/CipherDogs/manifest">Manifest</a>
-                |
-                <a href="https://keys.cipherdogs.net/">CipherKeys</a>
-                |
-                <a href="https://allnero.cipherdogs.net/">Allnero</a>
-                |
-                <a href="https://cyber.cipherdogs.net/">cyber~Russian community</a>
-                |
-                <a href="https://github.com/CipherDogs/">GitHub</a>
-            </p>
-        </div>
-        <div class="block">
-            <h3>Members</h3>
-            <div class="persons">
-                <div class="person">
-                    <a target="_blank" href="https://deadblackclover.cipherdogs.net/">
-                        <img src="img/deadblackclover.jpg" alt="deadblackclover" title="deadblackclover">
-                    </a>
-                </div>
-                <div class="person">
-                    <a target="_blank" href="https://github.com/ptfn">
-                        <img src="img/ptfn.jpg" alt="D34D_FR13ND5" title="D34D_FR13ND5">
-                    </a>
-                </div>
-            </div>
-        </div>
-        <p>
-            <a target="_blank" href="https://blockchair.com/bitcoin/address/bc1q0a7hm3hdxhsv6mc50zsel2x9809tny2ck3ghpl">Bitcoin Address</a>
-            |
-            <a target="_blank" href="https://etherscan.io/address/0xD12Dd8aEb8F96D0bFF6aA9C74bDf92009741d3Aa">Ethereum Address</a>
-            |
-            <a target="_blank" href="https://donate.cipherdogs.net/?address=4A5cX5VRHSmitG2fyZZqJu1hTFR53aKpPD9GjnBi6D3p5qVNA8c3gFxB7Q8E1aJQiHNt2EBjjviUTMNWmX4f4V8RSE3JX9f">Monero Address</a>
-            |
-            <a target="_blank" href="https://cyber.page/network/euler/contract/cyber1pjvkddp4fmx8ym5j7s7su8kn3zuqj255f2369q">cyber~Address</a>
-        </p>
-    </main>
-    <footer>
-        Copyleft 2020 CipherDogs | Source code available under the AGPL
-    </footer>
+    <div id="app"></div>
+    <script src="elm.js"></script>
+    <script>
+      var app = Elm.Main.init({
+        node: document.getElementById("app")
+      });
+    </script>
 </body>
 </html>
