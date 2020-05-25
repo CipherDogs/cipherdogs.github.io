@@ -1,9 +1,11 @@
 module Footer exposing (view)
 
-import Html
+import Html exposing (..)
+import String
 
 
-view =
+view : Int -> Html msg
+view year =
     Html.footer []
-        [ Html.text "Copyleft 2020 CipherDogs | Source code available under the AGPL"
+        [ text ("Copyleft " ++ String.fromInt year ++ " CipherDogs | Source code available under the AGPL")
         ]
