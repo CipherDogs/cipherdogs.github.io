@@ -13,7 +13,7 @@ view =
             , text " | "
             , Html.a [ href "https://keys.cipherdogs.net/" ] [ text "CipherKeys" ]
             , text " | "
-            , Html.a [ href "https://allnero.cipherdogs.net/" ] [ text "Allnero" ]
+            , Html.a [ href "https://torrent.cipherdogs.net/" ] [ text "CipherTorrent" ]
             , text " | "
             , Html.a [ href "https://cyber.cipherdogs.net/" ] [ text "cyber~Russian community" ]
             , text " | "
