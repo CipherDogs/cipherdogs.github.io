@@ -1,5 +1,6 @@
 module Main exposing (main)
 
+import About
 import Donate
 import Footer
 import Header
@@ -13,7 +14,8 @@ main =
     Html.div []
         [ Header.view
         , Html.main_ []
-            [ Links.view
+            [ About.view
+            , Links.view
             , Members.view
             , Donate.view
             ]
