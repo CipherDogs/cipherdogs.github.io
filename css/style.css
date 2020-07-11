@@ -1,16 +1,16 @@
 @media screen and (min-width: 781px) {
     .header img {
-        width: 400px;
+        width: 300px;
     }
-
     h1 {
         font-size: 3em;
     }
-    
-    h3, p, footer {
+    h3 {
         font-size: 2em;
     }
-
+    p, footer {
+        font-size: 1.5em;
+    }
     .person img {
         width: 150px;
         height: 150px;
@@ -21,15 +21,15 @@
     .header img {
         width: 200px;
     }
-
     h1 {
         font-size: 2em;
     }
-    
-    h3, p, footer {
+    h3 {
+        font-size: 1.5em;
+    }
+    p, footer {
         font-size: 1em;
     }
-
     .person img {
         width: 100px;
         height: 100px;
@@ -43,18 +43,18 @@
 
 @keyframes logotext {
     0% {
-        text-shadow:-10px 0 red,10px 0 blue,0 0 skyblue;
-        -webkit-transform:skewX(40deg);
-        transform:skewX(40deg);
+        text-shadow: -10px 0 red, 10px 0 blue, 0 0 skyblue;
+        -webkit-transform: skewX(40deg);
+        transform: skewX(40deg);
     }
     4% {
-        -webkit-transform:skewX(0deg);
-        transform:skewX(0deg);
-        text-shadow:none;
+        -webkit-transform: skewX(0deg);
+        transform: skewX(0deg);
+        text-shadow: none;
     }
     to {
-        -webkit-transform:skewX(0deg);
-        transform:skewX(0deg);
+        -webkit-transform: skewX(0deg);
+        transform: skewX(0deg);
     }
 }
 
@@ -74,7 +74,6 @@ body {
 }
 
 header {
-    margin-top: 20px;
     height: 100vh;
     width: 100%;
     display: flex;
