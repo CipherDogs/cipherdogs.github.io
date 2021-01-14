@@ -43,6 +43,10 @@ a, a:active, a:link, a:visited {
     color: white;
 }
 
+a:hover {
+    cursor: crosshair;
+}
+
 html {
     height: 100%;
 }
