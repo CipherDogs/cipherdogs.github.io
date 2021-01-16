@@ -60,7 +60,6 @@ body {
 
 header {
     margin-top: 20px;
-    height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -91,10 +90,9 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     border: 4px double white;
-    margin: 30px auto;
     height: 400px;
+    padding: 0 20px;
 }
 
 h1 {
@@ -104,18 +102,18 @@ h1 {
 h1, h3 {
     font-family: Sheeping Dogs, sans-serif;
     text-align: center;
-    width: 90%;
+    width: max-content;
 }
 
 p {
-    text-align: center;
 }
 
 hr {
     color: white;
-    width: 90%;
+    width: 100%;
 }
 
 footer {
+    margin-top: 20px;
     text-align: center;
 }
