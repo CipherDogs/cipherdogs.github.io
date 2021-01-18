@@ -90,9 +90,11 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 4px double white;
     height: 400px;
     padding: 0 20px;
+    background: #323232;
+    box-shadow: 5px 5px 5px black;
+    margin: 20px;
 }
 
 h1 {
