@@ -27,8 +27,7 @@ a:focus { transition: all 0.3s }
 
 .head-top {
     color: black;
-    text-align:
-	center;
+    text-align: center;
     padding: 70px 10px;
     min-height: 556px;
     background: white;
