@@ -1,84 +1,260 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Cyber-crypto team. Decentralization and Distribution. Team interested in electronic art/hack/social activity and decentralized technology">
-    <link rel="stylesheet" href="css/style.css?v8">
-    <link rel="icon" href="img/logo.png" type="image/png">
+    <meta name="keywords" content="blockchain, decentralization, distribution, cyber, gem, rust, python, cipher, dogs, team, hack, art, social, cipherdogs, polkadot, monero, validator, github">
+    <link rel="shortcut icon" type="image/png" href="img/logo.png"/>
     <title>CipherDogs</title>
+    <link rel="stylesheet" href="media/main.css" />
+    <noscript><link rel="stylesheet" href="media/fonts.css" /></noscript>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style id='style'>
+      h2,h3,h4,h5,h6,a,li,ul,small,span { visibility: hidden; }
+      h1 { opacity: 0; transition: all 0.3s ease-in-out; }
+      @font-face {
+          font-family: 'Text Me One';
+          font-style: normal;
+          font-weight: 300;
+          src:
+              local('Text Me One'),
+              url(data:application/font-woff2;charset=utf-8;base64,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) format('woff2'),
+              url('font/TextMeOne-Regular.woff') format('woff');
+      }
+    </style>
+    <link rel="preload" href="media/fonts.css" as="style">
   </head>
   <body>
-    <header>
-      <div class="header">
-        <img src="img/logo-white.png">
-        <!-- <h1>CipherDogs</h1> -->
-        <img src="img/name.png">
-        <h3>Cyber-crypto team<br>Decentralization and Distribution</h3>
+    <!-- Top -->
+    <div class="block block-100 head-top">
+      <h1><img src="img/logo.png"></h1>
+      <h2>Cyber-crypto team<br>Decentralization and Distribution</h2>
+    </div>
+
+    <!-- Load fonts -->
+    <script>
+      var cb = function() {
+          var l = document.createElement('link'); l.rel = 'stylesheet';
+          l.href = 'media/fonts.css';
+          var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+      };
+      setTimeout(cb, 0);
+      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+          webkitRequestAnimationFrame || msRequestAnimationFrame;
+      if (raf) raf(cb);
+      else window.addEventListener('load', cb);
+
+      setTimeout(function() {
+          document.getElementById("style").innerHTML += "\nh2 { visibility: visible !important }"
+      }, 800)
+
+      setTimeout(function() {
+          document.getElementById("style").innerHTML += "\nh3,h4,h5,h6,a,li,ul,small,span { visibility: visible !important }"
+      }, 4000)
+
+      setTimeout(function() {
+          document.getElementsByTagName("h1")[0].style.opacity = 1
+          document.getElementsByTagName("h1")[0].style.transform = "none"
+      }, 100)
+    </script>
+    <!-- EOF Load fonts -->
+
+    <div class="block block-100 block-about">
+      <h4>
+        Our team is interested in electronic art/hack/social activity and decentralized technology.
+        <br>
+        Our team creates various libraries, websites, artwork and other projects.
+        <br>
+        Our team is engaged in support and cooperation with the best blockchains.
+      </h4>
+    </div>
+
+    <!-- 1. line -->
+    <div class="block block-33 block-cyber">
+      <h3>cyber</h3>
+      <h4>cyber is a brand new protocol for adding and searching information onto a knowledge graph.</h4>
+    </div>
+
+    <div class="block block-34 block-monero">
+      <h3>Monero</h3>
+      <h4>Monero is cash for a connected world. It’s fast, private, and secure.</h4>
+    </div>
+
+    <div class="block block-33 block-polkadot">
+      <h3>Polkadot</h3>
+      <h4>Polkadot provides unprecedented economic scalability by enabling a common set of validators to secure multiple blockchains.</h4>
+    </div>
+
+    <!-- 2. line -->
+    <div class="block block-33 block-detail block-gem">
+      <h3>Gem</h3>
+      <h4>
+        Experimental network for testing ideas, contracts and decentralized mechanisms.
+        <br><br>
+        Built with Substrate blockchain framework.
+      </h4>
+    </div>
+    <div class="block block-67 block-gem-img"></div>
+
+    <!-- 3. line -->
+    <div class="block block-33 block-cyber-russian">
+      <h3>cyber~Russian</h3>
+      <h4>The community that makes the great web.</h4>
+      <div>
+        <a href="https://cyber.cipherdogs.net" class="button button-outline" target="_blank">Become part of the community</a>
       </div>
-    </header>
-    <main>
-      <div class="block">
-        <p>Our team is interested in electronic art/hack/social activity and decentralized technology. Our team creates various libraries, websites, artwork and other projects.</p>
-        <hr>
-        <h3>We trust</h3>
-        <p>
-          <a href="https://gemchain.tech/">Gem Blockchain</a>
-          |
-          <a href="https://www.getmonero.org/">Monero</a>
-          |
-          <a href="https://cybercongress.ai/">cyber</a>
-          |
-          <a href="https://polkadot.network/">Polkadot</a>
-          |
-          <a href="https://ipfs.io/">IPFS</a>
-          |
-          <a href="https://zeronet.io/">ZeroNet</a>
-        </p>
-        <hr>
-        <h3>Social</h3>
-        <p>
-          <a target="_blank" href="https://cyber.page/network/euler/contract/cyber1mn8ev805fde2xswght0snwfayfj9tn54fnew44">cyber</a>
-          |
-          <a target="_blank" href="https://app.subsocial.network/@CipherDogs">Subsocial</a>
-        </p>
+    </div>
+
+    <div class="block block-34 block-bots">
+      <h3>Telegram bots</h3>
+      <h4>Our bots in Telegram work with statistics and prices. Also involved in helping communities.</h4>
+      <div>
+        <a href="https://t.me/cipher_dogs_bot" class="button button-outline" target="_blank">Use a bot</a>
       </div>
-      <div class="block">
-        <h3>Projects and Art</h3>
-        <p>
-          <a href="https://github.com/CipherDogs/manifest">Manifest</a>
-          |
-          <a href="https://torrent.cipherdogs.net/">CipherTorrent</a>
-          |
-          <a href="https://cyber.cipherdogs.net/">cyber~Russian community</a>
-          |
-          <a href="https://github.com/CipherDogs/">GitHub</a>
-        </p>
-        <hr>
-        <h3>Members</h3>
-        <p>
-          <a target="_blank" href="https://deadblackclover.cipherdogs.net/" title="deadblackclover">~deadblackclover</a>
-          |
-          <a target="_blank" href="https://github.com/ptfn" title="D34D_FR13ND5">~D34D_FR13ND5</a>
-        </p>
-        <hr>
-        <h3>Donate</h3>
-        <p>
-          <a target="_blank" href="https://blockchair.com/bitcoin/address/bc1q0a7hm3hdxhsv6mc50zsel2x9809tny2ck3ghpl">Bitcoin</a>
-          |
-          <a target="_blank" href="https://etherscan.io/address/0xD12Dd8aEb8F96D0bFF6aA9C74bDf92009741d3Aa">Ethereum</a>
-          |
-          <a target="_blank" href="https://polkadot.subscan.io/account/1nPuffWS9FW54fxQr9jgvqoUMveQvWhXhGM3gegY1m7RtfY">Polkadot</a>
-          |
-          <a target="_blank" href="https://donate.cipherdogs.net/?address=4A5cX5VRHSmitG2fyZZqJu1hTFR53aKpPD9GjnBi6D3p5qVNA8c3gFxB7Q8E1aJQiHNt2EBjjviUTMNWmX4f4V8RSE3JX9f">Monero</a>
-          |
-          <a target="_blank" href="https://cyber.page/network/euler/contract/cyber1mn8ev805fde2xswght0snwfayfj9tn54fnew44">cyber</a>
-        </p>
+    </div>
+
+    <div class="block block-33 block-validator">
+      <h3>Validator</h3>
+      <h4>We support the Proof-of-Stake ecosystem and make networks more decentralized.</h4>
+    </div>
+
+    <!-- 4. line -->
+    <div class="block block-100 block-members">
+      <h3>Members</h3>
+      <div>
+        <a href="https://deadblackclover.cipherdogs.net" title="deadblackclover" >
+          <video src="./img/gif/deadblackclover.mp4" alt="deadblackclover" autoplay loop>
+        </a>
+        <a href="https://github.com/ptfn" title="ptfn">
+          <video src="./img/gif/ptfn.mp4" alt="ptfn" autoplay loop>
+        </a>
       </div>
-    </main>
-    <footer>
-      Copyleft 2020 CipherDogs | Source code available under the AGPL
-    </footer>
+    </div>
+
+    <!-- 5. line -->
+    <div class="block block-50 block-donate">
+      <h3>Donate</h3>
+      <h4>If you like what we do, you can help us.</h4>
+      <div>
+        <a href="https://etherscan.io/address/0xD12Dd8aEb8F96D0bFF6aA9C74bDf92009741d3Aa" class="button button-outline" target="_blank">Ethereum</a>
+        <a href="https://polkadot.subscan.io/account/1nPuffWS9FW54fxQr9jgvqoUMveQvWhXhGM3gegY1m7RtfY" class="button button-outline" target="_blank">Polkadot</a>
+        <a href="https://donate.cipherdogs.net/?address=4A5cX5VRHSmitG2fyZZqJu1hTFR53aKpPD9GjnBi6D3p5qVNA8c3gFxB7Q8E1aJQiHNt2EBjjviUTMNWmX4f4V8RSE3JX9f" class="button button-outline" target="_blank">Monero</a>
+        <a href="https://cyber.page/network/euler/contract/cyber1mn8ev805fde2xswght0snwfayfj9tn54fnew44" class="button button-outline" target="_blank">cyber</a>
+      </div>
+    </div>
+
+    <div class="block block-50 block-github">
+      <h3>GitHub</h3>
+      <h4>You can look at all our projects on the github.</h4>
+    </div>
+
+    <!-- EOF block -->
+    <div style="clear: both"></div>
+
+    <!-- Foot -->
+    <div class="block block-50 block-foot">
+      <h2>
+        <span>Our Mission</span><br>
+        <span>is to bring</span><br>
+        <span>decentralization to everyone.</span>
+      </h2>
+    </div>
+
+    <!-- Add animation delay to blocks -->
+    <script>
+      function addAnimationDelay() {
+          var blocks = document.getElementsByClassName("block")
+          for (var i = 0; i < blocks.length; i++) {
+              (function (block) {
+                  setTimeout(function() {
+                      block.style.transform = "none"
+                      block.style.opacity = 1
+                  }, i*100)
+              })(blocks[i])
+          }
+      }
+      addAnimationDelay()
+    </script>
+    <noscript>
+      <style>
+        .block { opacity: 1; transform: none; }
+        .h1 { opacity: 1; }
+      </style>
+    </noscript>
+
+    <!-- SVG icons by https://icomoon.io/ -->
+    <svg style="display: none">
+      <symbol id="icon-github" viewBox="0 0 1024 1024">
+        <title>github</title>
+        <path class="path1" d="M512.008 12.642c-282.738 0-512.008 229.218-512.008 511.998 0 226.214 146.704 418.132 350.136 485.836 25.586 4.738 34.992-11.11 34.992-24.632 0-12.204-0.48-52.542-0.696-95.324-142.448 30.976-172.504-60.41-172.504-60.41-23.282-59.176-56.848-74.916-56.848-74.916-46.452-31.778 3.51-31.124 3.51-31.124 51.4 3.61 78.476 52.766 78.476 52.766 45.672 78.27 119.776 55.64 149.004 42.558 4.588-33.086 17.852-55.68 32.506-68.464-113.73-12.942-233.276-56.85-233.276-253.032 0-55.898 20.004-101.574 52.76-137.428-5.316-12.9-22.854-64.972 4.952-135.5 0 0 43.006-13.752 140.84 52.49 40.836-11.348 84.636-17.036 128.154-17.234 43.502 0.198 87.336 5.886 128.256 17.234 97.734-66.244 140.656-52.49 140.656-52.49 27.872 70.528 10.35 122.6 5.036 135.5 32.82 35.856 52.694 81.532 52.694 137.428 0 196.654-119.778 239.95-233.79 252.624 18.364 15.89 34.724 47.046 34.724 94.812 0 68.508-0.596 123.644-0.596 140.508 0 13.628 9.222 29.594 35.172 24.566 203.322-67.776 349.842-259.626 349.842-485.768 0-282.78-229.234-511.998-511.992-511.998z"></path>
+      </symbol>
+      <symbol id="icon-subsocial" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <title>subsocial</title>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M300 150C300 232.843 232.843 300 150 300C67.1573 300 0 232.843 0 150C0 67.1573 67.1573 0 150 0C232.843 0 300 67.1573 300 150ZM149.489 31.9888C118.837 31.9888 93.9888 56.837 93.9888 87.4888V123.489C93.9888 154.141 118.837 178.989 149.489 178.989C153.791 178.989 157.979 178.499 162 177.573C164.415 177.017 165.092 174.036 163.3 172.325L163 172.038L131.027 141.5C126.069 136.684 122.989 129.946 122.989 122.489V88.4888C122.989 73.8532 134.853 61.9888 149.489 61.9888C164.124 61.9888 175.989 73.8532 175.989 88.4888V100C175.989 102.209 177.78 104 179.989 104H200.989C203.198 104 204.989 102.209 204.989 100V87.4888C204.989 56.837 180.141 31.9888 149.489 31.9888ZM205 209.5C205 240.152 180.152 265 149.5 265C118.848 265 94 240.152 94 209.5V197C94 194.791 95.7909 193 98 193H119C121.209 193 123 194.791 123 197V208.5C123 223.136 134.864 235 149.5 235C164.136 235 176 223.136 176 208.5V174.5C176 167.042 172.919 160.304 167.961 155.489L135.989 124.951L135.688 124.664C133.896 122.952 134.574 119.972 136.989 119.416C141.01 118.49 145.198 118 149.5 118C180.152 118 205 142.848 205 173.5V209.5Z" fill="url(#paint0_linear)"/>
+        <defs>
+          <linearGradient id="paint0_linear" x1="150" y1="0" x2="150" y2="300" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F50083"/>
+            <stop offset="1" stop-color="#720497"/>
+          </linearGradient>
+        </defs>
+      </symbol>
+      <symbol id="icon-cyber" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>cyber</title>
+        <defs>
+          <path id="a" d="M.006 9.019c0 4.11 5.17 5.958 11.548 5.958s11.549-1.848 11.549-5.958S17.933.095 11.554.095C5.176.095.006 4.909.006 9.019z"/>
+        </defs>
+        <g fill="none" fill-rule="evenodd">
+          <g transform="translate(0 5)">
+            <path fill="#F6F6F6" d="M15.75.088C7.082.088.055 4.98.055 11.015c0 6.035 7.027 10.927 15.695 10.927s15.694-4.892 15.694-10.927C31.444 4.98 24.418.088 15.75.088"/>
+            <g transform="translate(4.195 4.738)">
+              <mask id="b" fill="#fff">
+                <use xlink:href="#a"/>
+              </mask>
+              <path fill="#2B3239" d="M-.96 15.416h24.62V-.96H-.96z" mask="url(#b)"/>
+            </g>
+            <ellipse cx="16.239" cy="13.082" fill="#e90000" rx="3" ry="3.84"/>
+          </g>
+          <path d="M0 0h32v32H0z"/>
+        </g>
+      </symbol>
+      <symbol id="icon-ghost" viewBox="0 0 1024 1024">
+        <title>ghost</title>
+        <path class="path1" d="M511.984-0.128c-229.216 0-415.68 199.904-415.68 445.6v546.672c0 13.216 8.16 25.088 20.496 29.84 3.712 1.472 7.632 2.16 11.504 2.16 8.848 0 17.536-3.68 23.712-10.528l120.592-133.12 94.432 130.432c5.968 8.256 15.504 13.152 25.68 13.216h0.224c10.096 0 19.632-4.784 25.664-12.912l94.816-127.344 93.184 127.152c6.032 8.224 15.6 13.088 25.808 13.088 10.192 0 19.776-4.848 25.808-13.056l95.568-130.288 118 132.624c8.816 9.904 22.944 13.376 35.28 8.624 12.4-4.72 20.624-16.624 20.624-29.904v-546.672c0-245.68-186.496-445.584-415.712-445.584zM863.696 908.032l-88.4-99.376c-6.432-7.216-15.808-11.312-25.408-10.688-9.664 0.464-18.592 5.248-24.32 13.024l-93.12 127.008-93.008-126.912c-6-8.192-15.536-13.056-25.68-13.088h-0.128c-10.128 0-19.632 4.784-25.664 12.912l-94.688 127.152-92-127.088c-5.664-7.808-14.528-12.656-24.16-13.152-0.592-0.032-1.152-0.064-1.744-0.064-9.008 0-17.632 3.808-23.712 10.528l-91.376 100.848v-463.68c0-210.4 157.776-381.6 351.68-381.6 193.936 0 351.712 171.184 351.712 381.6v462.576zM672 352.16c-35.28 0-63.84 28.592-63.84 63.808 0 35.248 28.56 63.84 63.84 63.84s63.84-28.592 63.84-63.84c0-35.216-28.56-63.808-63.84-63.808zM352 352.16c-35.28 0-63.84 28.592-63.84 63.808 0 35.248 28.576 63.84 63.84 63.84s63.84-28.592 63.84-63.84c0-35.216-28.56-63.808-63.84-63.808z"></path>
+      </symbol>
+    </svg>
+
+    <div class="block block-50 block-follow" style="opacity: 1; transform: none">
+      <a href="https://cyber.page/network/euler/contract/cyber1mn8ev805fde2xswght0snwfayfj9tn54fnew44" targe="_blank">
+        <svg class="icon icon-cyber" width="50" height="50">
+          <use xlink:href="#icon-cyber"></use>
+        </svg>
+      </a>
+      <a href="https://app.subsocial.network/@CipherDogs" targe="_blank">
+        <svg class="icon icon-subsocial" width="50" height="50">
+          <use xlink:href="#icon-subsocial"></use>
+        </svg>
+      </a>
+      <a href="https://github.com/CipherDogs" targe="_blank">
+        <svg class="icon icon-github" width="50" height="50">
+          <use xlink:href="#icon-github"></use>
+        </svg>
+      </a>
+    </div>
+
+    <div style="clear: both"></div>
+    <h3 class="hosted">
+      Copyleft 2021 CipherDogs
+      <svg class="icon icon-ghost" style="height: 14px; width: 14px; opacity: 0.5; vertical-align: -1px;">
+        <use xlink:href="#icon-ghost"></use>
+      </svg>
+      <a href="https://github.com/CipherDogs/cipherdogs.github.io" target="_blank">Source code</a>
+      available under the AGPL
+      <svg class="icon icon-ghost" style="height: 14px; width: 14px; opacity: 0.5; vertical-align: -1px;">
+        <use xlink:href="#icon-ghost"></use>
+      </svg>
+    </h3>
   </body>
 </html>
