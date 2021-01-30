@@ -36,7 +36,7 @@ a:focus { transition: all 0.3s }
     -o-background-size: cover;
     background-size: cover;
 }
-.head-top h1 img { width: auto;  height: 45vh; }
+.head-top h1 img { width: auto; height: 45vh; }
 .head-top a { color: black; }
 .head-top .download { margin-top: 44px; line-height: 44px; }
 
