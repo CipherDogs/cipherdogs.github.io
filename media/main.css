@@ -88,7 +88,7 @@ a:focus { transition: all 0.3s }
 }
 .block-members video { height: 120px }
 
-.block-donate { background-color: #F33A58; color: white; background: #F33A58 url('../img/os.png') bottom center no-repeat }
+.block-donate { background-color: #F33A58; color: white }
 .block-donate div { margin: 15px }
 .block-donate .button { background: white; display: inline-block; margin: 5px }
 .block-donate .button:hover { background: black; }
