@@ -58,9 +58,12 @@ a:focus { transition: all 0.3s }
 
 .block-cyber-russian { color: white; background: #231F20 url('../img/assets.png') bottom center no-repeat }
 .block-cyber-russian div { margin: 15px; text-align: center }
-.block-cyber-russian .button { background: white; display: inline-block; margin: 5px }
-.block-cyber-russian .button:hover { background: black; }
+.block-cyber-russian .button { color: white !important; border-color: white; display: inline-block; margin: 5px }
+.block-cyber-russian .button:hover { color: white !important; border-color: white !important; background: transparent }
 .block-bots { background-color: #32afed; color: white; }
+.block-bots div { margin: 15px; text-align: center }
+.block-bots .button { color: white !important; border-color: white; display: inline-block; margin: 5px }
+.block-bots .button:hover { color: white !important; border-color: white !important; background: transparent }
 .block-validator { color: white; background: #9B59B6 url('../img/gear.png') bottom right no-repeat; background-size: 200px }
 
 .block-empty { background-color: #34495E; color: white; }
