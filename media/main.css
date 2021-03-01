@@ -42,6 +42,9 @@ a:focus { transition: all 0.3s }
 
 .block-about { min-height: 290px; text-align: center; background-color: #1B133B; color: #FFF; background: #1B133B url('../img/opensource.png') center left no-repeat }
 .block-about h4 { padding-bottom: 20px }
+.block-about div { margin: 15px; text-align: center }
+.block-about .button { color: white !important; border-color: white; display: inline-block; margin: 5px }
+.block-about .button:hover { color: white !important; border-color: white !important; background: transparent }
 
 .block-cyber { color: #FFF; background: black url('../img/cyber.png') bottom center no-repeat }
 .block-monero { color: white; position: relative; background: #ff6600 url('../img/monero.png') bottom center no-repeat; background-size: 200px }
