@@ -50,8 +50,8 @@ a:focus { transition: all 0.3s }
 .block-monero { color: white; position: relative; background: #ff6600 url('../img/monero.png') bottom center no-repeat; background-size: 200px }
 .block-polkadot { color: white; background: #e6007a url('../img/polkadot.png') bottom center no-repeat; background-size: 200px }
 
-.block-gem h3 { color: #1B133B; }
-.block-gem-img {
+.block-cipher h3 { color: #1B133B; }
+.block-cipher-img {
     background: #1B133B url('../img/blockchain.jpg') center center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
