@@ -69,6 +69,15 @@ a:focus { transition: all 0.3s }
 .block-bots .button:hover { color: white !important; border-color: white !important; background: transparent }
 .block-validator { color: white; background-color: #9B59B6 }
 
+.block-ctf { background-color: #FD7C49; color: white }
+.block-ctf-img {
+    background: #1B133B url('../img/ctf.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .block-empty { background-color: #34495E; color: white; }
 .block-empty-img {
     background: #ABB8C3 url('../img/empty.png') top right no-repeat;
