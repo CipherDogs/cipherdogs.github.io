@@ -72,7 +72,6 @@ a:focus { transition: all 0.3s }
 .block-cosmwasm-russia .button { color: white !important; border-color: white; display: inline-block; margin: 5px }
 .block-cosmwasm-russia .button:hover { color: white !important; border-color: white !important; background: transparent }
 
-
 .block-ctf { background-color: #FD7C49; color: white }
 .block-ctf-img {
     background: #1B133B url('../img/ctf.jpg') center center no-repeat;
