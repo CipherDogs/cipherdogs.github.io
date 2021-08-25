@@ -67,10 +67,10 @@ a:focus { transition: all 0.3s }
 .block-bots div { margin: 15px; text-align: center }
 .block-bots .button { color: white !important; border-color: white; display: inline-block; margin: 5px }
 .block-bots .button:hover { color: white !important; border-color: white !important; background: transparent }
-.block-cosmwasm-russia { color: white; background-color: #7954ff }
-.block-cosmwasm-russia div { margin: 15px; text-align: center }
-.block-cosmwasm-russia .button { color: white !important; border-color: white; display: inline-block; margin: 5px }
-.block-cosmwasm-russia .button:hover { color: white !important; border-color: white !important; background: transparent }
+.block-gem-blockchain { color: white; background-color: #aaa }
+.block-gem-blockchain div { margin: 15px; text-align: center }
+.block-gem-blockchain .button { color: white !important; border-color: white; display: inline-block; margin: 5px }
+.block-gem-blockchain .button:hover { color: white !important; border-color: white !important; background: transparent }
 
 .block-ctf { background-color: #FD7C49; color: white }
 .block-ctf-img {
