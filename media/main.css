@@ -60,6 +60,10 @@ a:focus { transition: all 0.3s }
     background-size: auto;
 }
 
+.block-twtvk { color: white; background-color: #c9ab4d }
+.block-twtvk div { margin: 15px; text-align: center }
+.block-twtvk .button { color: white !important; border-color: white; display: inline-block; margin: 5px }
+.block-twtvk .button:hover { color: white !important; border-color: white !important; background: transparent }
 .block-cyber-russian { color: white; background-color: #231F20 }
 .block-cyber-russian div { margin: 15px; text-align: center }
 .block-cyber-russian .button { color: white !important; border-color: white; display: inline-block; margin: 5px }
@@ -68,10 +72,6 @@ a:focus { transition: all 0.3s }
 .block-bots div { margin: 15px; text-align: center }
 .block-bots .button { color: white !important; border-color: white; display: inline-block; margin: 5px }
 .block-bots .button:hover { color: white !important; border-color: white !important; background: transparent }
-.block-moon { color: white; background-color: #aaa }
-.block-moon div { margin: 15px; text-align: center }
-.block-moon .button { color: white !important; border-color: white; display: inline-block; margin: 5px }
-.block-moon .button:hover { color: white !important; border-color: white !important; background: transparent }
 
 .block-ctf { background-color: #FD7C49; color: white }
 .block-ctf-img {
