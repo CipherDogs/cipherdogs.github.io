@@ -50,13 +50,14 @@ a:focus { transition: all 0.3s }
 .block-monero { color: white; position: relative; background: #ff6600 url('../img/monero.png') bottom center no-repeat; background-size: 200px }
 .block-polkadot { color: white; background: #e6007a url('../img/polkadot.png') bottom center no-repeat; background-size: 200px }
 
-.block-cipher h3 { color: #1B133B; }
-.block-cipher-img {
-    background: #1B133B url('../img/blockchain.jpg') center center no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+.block-eosio h3 { color: #1B133B; }
+.block-eosio div { margin: 15px; text-align: center }
+.block-eosio-img {
+    background: white url('../img/gif/enf.gif') center center no-repeat;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
 }
 
 .block-cyber-russian { color: white; background-color: #231F20 }
