@@ -73,6 +73,16 @@ a:focus { transition: all 0.3s }
 .block-bots .button { color: white !important; border-color: white; display: inline-block; margin: 5px }
 .block-bots .button:hover { color: white !important; border-color: white !important; background: transparent }
 
+.block-torrent { background-color: white; color: black }
+.block-torrent div { margin: 15px }
+.block-torrent .button { display: inline-block; color: black !important; border-color: black !important; background: transparent; margin: 5px }
+.block-torrent .button:hover { color: black !important; border-color: black !important; background: transparent }
+.block-balance { color: white; background: black url('../img/blockchain.jpg') center center no-repeat }
+.block-balance h3, .block-balance h4 { width: fit-content; background-color: rgba(0, 0, 0, 0.7) }
+.block-balance div { margin: 15px }
+.block-balance .button { background: white; display: inline-block; margin: 5px }
+.block-balance .button:hover { background: black; }
+
 .block-ctf { background-color: #FD7C49; color: white }
 .block-ctf-img {
     background: #1B133B url('../img/ctf.jpg') center center no-repeat;
