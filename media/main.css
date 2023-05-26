@@ -83,9 +83,9 @@ a:focus { transition: all 0.3s }
 .block-balance .button { background: white; display: inline-block; margin: 5px }
 .block-balance .button:hover { background: black; }
 
-.block-ctf { background-color: #FD7C49; color: white }
-.block-ctf-img {
-    background: #1B133B url('../img/ctf.jpg') center center no-repeat;
+.block-developments { background-color: #FD7C49; color: white }
+.block-developments-img {
+    background: #1B133B url('../img/developments.jpg') center center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
