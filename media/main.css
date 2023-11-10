@@ -48,7 +48,7 @@ a:focus { transition: all 0.3s }
 
 .block-cyber { color: #FFF; background: black url('../img/cyber.png') bottom center no-repeat }
 .block-monero { color: white; position: relative; background: #ff6600 url('../img/monero.png') bottom center no-repeat; background-size: 200px }
-.block-polkadot { color: white; background: #e6007a url('../img/polkadot.png') bottom center no-repeat; background-size: 200px }
+.block-polkadot { color: white; background: #E6007A url('../img/polkadot.png') bottom center no-repeat; background-size: 200px }
 
 .block-eosio h3 { color: #1B133B; }
 .block-eosio div { margin: 15px; text-align: center }
