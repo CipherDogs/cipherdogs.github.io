@@ -46,43 +46,6 @@ a:focus { transition: all 0.3s }
 .block-about .button { color: white !important; border-color: white; display: inline-block; margin: 5px }
 .block-about .button:hover { color: white !important; border-color: white !important; background: transparent }
 
-.block-cyber { color: #FFF; background: black url('../img/cyber.png') bottom center no-repeat }
-.block-monero { color: white; position: relative; background: #ff6600 url('../img/monero.png') bottom center no-repeat; background-size: 200px }
-.block-polkadot { color: white; background: #E6007A url('../img/polkadot.png') bottom center no-repeat; background-size: 200px }
-
-.block-eosio h3 { color: #1B133B; }
-.block-eosio div { margin: 15px; text-align: center }
-.block-eosio-img {
-    background: white url('../img/gif/enf.gif') center center no-repeat;
-    -webkit-background-size: auto;
-    -moz-background-size: auto;
-    -o-background-size: auto;
-    background-size: auto;
-}
-
-.block-twtvk { color: white; background-color: #c9ab4d }
-.block-twtvk div { margin: 15px; text-align: center }
-.block-twtvk .button { color: white !important; border-color: white; display: inline-block; margin: 5px }
-.block-twtvk .button:hover { color: white !important; border-color: white !important; background: transparent }
-.block-cyber-russian { color: white; background-color: #231F20 }
-.block-cyber-russian div { margin: 15px; text-align: center }
-.block-cyber-russian .button { color: white !important; border-color: white; display: inline-block; margin: 5px }
-.block-cyber-russian .button:hover { color: white !important; border-color: white !important; background: transparent }
-.block-bots { background-color: #32afed; color: white; }
-.block-bots div { margin: 15px; text-align: center }
-.block-bots .button { color: white !important; border-color: white; display: inline-block; margin: 5px }
-.block-bots .button:hover { color: white !important; border-color: white !important; background: transparent }
-
-.block-torrent { background-color: white; color: black }
-.block-torrent div { margin: 15px }
-.block-torrent .button { display: inline-block; color: black !important; border-color: black !important; background: transparent; margin: 5px }
-.block-torrent .button:hover { color: black !important; border-color: black !important; background: transparent }
-.block-balance { color: white; background: black url('../img/blockchain.jpg') center center no-repeat }
-.block-balance h3, .block-balance h4 { width: fit-content; background-color: rgba(0, 0, 0, 0.7) }
-.block-balance div { margin: 15px }
-.block-balance .button { background: white; display: inline-block; margin: 5px }
-.block-balance .button:hover { background: black; }
-
 .block-developments { background-color: #FD7C49; color: white }
 .block-developments-img {
     background: #1B133B url('../img/developments.jpg') center center no-repeat;
